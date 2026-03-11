@@ -1,0 +1,25 @@
+{
+  "id": "7cc97264-3dc4-41e0-bd3a-e908c33f5aef",
+  "name": "Use the add tool to",
+  "projectId": null,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Use the add tool to add 42 and 58",
+      "timestamp": 1773269705170
+    },
+    {
+      "role": "assistant",
+      "content": "{\"name\": \"add\", \"parameters\": {\"a\": \"42\", \"b\": \"58\"}}",
+      "timestamp": 1773269705494,
+      "_perf": {
+        "tokens": 22,
+        "promptTokens": 940,
+        "tokPerSec": 173,
+        "totalMs": 321
+      }
+    }
+  ],
+  "createdAt": 1773269702392,
+  "updatedAt": 1773269705494
+}

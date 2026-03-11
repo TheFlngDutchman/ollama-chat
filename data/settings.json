@@ -1,0 +1,20 @@
+{
+  "ollamaUrl": "http://172.17.0.1:11434",
+  "model": "llama3.2:latest",
+  "temperature": 0.7,
+  "top_p": 0.9,
+  "top_k": 40,
+  "max_tokens": 8192,
+  "repeat_penalty": 1.1,
+  "systemPrompt": "",
+  "ctxLimit": 100,
+  "webSearch": false,
+  "searchEngine": "brave",
+  "searxngUrl": "",
+  "useBuiltinTools": false,
+  "useMCPTools": true,
+  "ragEnabled": false,
+  "ragCollection": "fa5b70cf-b006-405b-b686-42daee471642",
+  "ragEmbeddingModel": "nomic-embed-text:latest",
+  "ragTopK": 2
+}

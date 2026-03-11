@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep:*)",
+      "Bash(node:*)",
+      "Bash(mkdir:*)",
+      "Bash(curl:*)",
+      "Bash(pgrep:*)"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "id": "18e918cc-2b34-4bf1-a9f0-2ed80d6e6a44",
+    "name": "Test Server",
+    "type": "stdio",
+    "autoConnect": true,
+    "command": "npx",
+    "args": "-y @modelcontextprotocol/server-everything",
+    "env": ""
+  }
+]

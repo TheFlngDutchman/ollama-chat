@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>OLLAMA // TUI</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/styles/atom-one-dark.min.css">
+</head>
+<body>
+<div id="app">
+  <div id="titlebar"></div>
+  <div id="workspace">
+    <div id="sidebar"></div>
+    <div id="resize-left" class="resize-handle"></div>
+    <div id="pane-container"></div>
+    <div id="resize-right" class="resize-handle"></div>
+    <div id="right-panel"></div>
+  </div>
+  <div id="statusbar"></div>
+</div>
+<div id="modal-overlay"></div>
+<div id="ctx-menu" class="ctx-menu"></div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/marked@11.2.0/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/lib/highlight.min.js"></script>
+<script src="app.js" type="module"></script>
+</html>

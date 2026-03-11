@@ -1,0 +1,9 @@
+[
+  {
+    "id": "fa5b70cf-b006-405b-b686-42daee471642",
+    "name": "RHS",
+    "description": "",
+    "embeddingModel": "nomic-embed-text:latest",
+    "createdAt": 1773267018870
+  }
+]
