@@ -500,7 +500,7 @@ async function sendArenaMessage(paneId, content) {
   }
 
   const body = {
-    prompt: content,
+    initialPrompt: content,
     mode: cfg.mode,
     agents,
     settings: state.settings,
