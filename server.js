@@ -1176,7 +1176,8 @@ function buildOrchestratorPrompt(initialPrompt, context, step) {
 }
 
 app.post('/api/arena/stream', async (req, res) => {
-  const { agents, initialPrompt, mode = 'sequential', maxTurns = 3, modeConfig = {} } = req.body;
+  const { agents, mode = 'sequential', maxTurns = 3, modeConfig = {} } = req.body;
+  const initialPrompt = req.body.initialPrompt || req.body.prompt;
 
   res.setHeader('Content-Type', 'text/event-stream');
   res.setHeader('Cache-Control', 'no-cache');
